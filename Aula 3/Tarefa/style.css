@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(240, 244, 248);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 2rem 3rem;
+  background-color: rgb(251, 253, 254);
+}
+.message-area {
+  margin: 3rem;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+footer {
+  background-color: aliceblue;
+  margin: 0 3rem;
+  padding: 3rem;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+}
