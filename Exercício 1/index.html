@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div id="chat-screen">
@@ -37,9 +38,9 @@
             <div class="msg-chat">Blabla Blaaba </div>
           </div>
         </div>
-        <form id="form-chat-send" action="index.html" method="post">
+        <form id="form-chat-send" method="post">
           <input type="text" id="message" name="message" placeholder="Digite sua mensagem...">
-          <button type="submit">ENVIAR</button>
+          <button type="submit" id="send">ENVIAR</button>
         </form>
     </div>
   </body>
